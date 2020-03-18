@@ -21,4 +21,4 @@ $router->post('/addtodo', 'TodoController@create'); //menambahkan data
 $router->post('/updatetodo/{id}', 'TodoController@update'); //melakukan update data
 $router->delete('/deletetodo/{id}', 'TodoController@delete'); //menghapus sebuah data
 
-$router->post('/register', 'UserController@register');
+$router->post('/register', 'UserController@register'); //register
